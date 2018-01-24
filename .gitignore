@@ -1,0 +1,12 @@
+node_modules
+.idea
+/server/config/.env
+npm-debug.log
+logs/*
+server/uploads/*
+server/temp
+package-lock.json
+
+# exception to the rule
+!server/uploads/.gitkeep 
+!logs/.gitkeep 

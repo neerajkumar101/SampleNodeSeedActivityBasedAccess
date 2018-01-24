@@ -1,0 +1,11 @@
+[
+	{
+		"provider": "local",
+		"role": "admin",
+		"name": "Ravinder Namboori",
+		"email": "admin@admin.com",
+		"password": "admin",
+		"isActive":true,
+		"hasSetPassword":true
+	}
+]

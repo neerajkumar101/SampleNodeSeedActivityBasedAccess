@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing:border-box; font-size:14px; margin:0;">
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Email Confirmed/Completed</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style type="text/css">
+        img {
+            max-width: 100%;
+        }
+        
+        body {
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: none;
+            width: 100% !important;
+            height: 100%;
+            line-height: 1.6em;
+            background-color: #000;
+        }
+		
+		p{
+			color: #000;
+		}
+		
+		.im {
+			color: #000 !important;
+		}
+        
+        .container {
+            width: 100%;
+        }
+        
+        #page-wrap > div,
+        #actual-table {
+            /*            margin: 0 0 50px 0;*/
+            /*min-width: 500px;
+            width: 100%;*/
+        }
+        
+        #actual-table {
+            border-collapse: separate;
+            border-spacing: 2px;
+            color: #000;
+        }
+        
+        #actual-table td {
+            width: 50%;
+            padding: 10px;
+            vertical-align: top;
+		    color: #000;
+        }
+
+        .fa-check-circle:before{
+            content: "\f058";
+        }
+        
+        .date-view {
+            width: 100px;
+            text-align: center;
+        }
+        
+        .date-view .day {
+            font-size: 12px;
+            background: #dcdcdc;
+            border-radius: 5px 5px 0 0;
+            border: 1px solid #ddd;
+            text-align: center !important;
+            margin: 0px !important;
+        }
+        
+        .date-view .date {
+            font-size: 25px;
+            border: 1px solid #ddd;
+            padding: 10px 0;
+            text-align: center !important;
+            margin: 0;
+        }
+        
+        .date-view .month {
+            font-size: 12px;
+            border: 1px solid #ddd;
+            background: #dcdcdc;
+            padding: 2px;
+            text-align: center !important;
+            margin: 0;
+        }
+        
+        .policy-list {
+            font-size: 12px;
+            margin-top: 0;
+			color: #000;
+            border-bottom: 1px solid #ddd;
+        }
+		
+		#imp-terms{
+		color: #000;
+		}
+		
+		.booking-list li.row{
+			width: 100%;
+    		display: inline-flex;
+			    padding: 15px 0px;
+				color: #000;
+		}
+		
+		.booking-list li.row .col-md-7{
+			width: 70%;
+			float: left;
+		}
+		
+		.booking-list li.row .col-md-5{
+			width: 30%;
+			float: right;
+		}
+        
+        @media only screen and (max-width: 640px) {
+            body {
+                padding: 0 !important;
+            }
+            h1 {
+                font-weight: 800 !important;
+                margin: 20px 0 5px !important;
+            }
+            h2 {
+                font-weight: 800 !important;
+                margin: 20px 0 5px !important;
+            }
+            h3 {
+                font-weight: 800 !important;
+                margin: 20px 0 5px !important;
+            }
+            h4 {
+                font-weight: 800 !important;
+                margin: 20px 0 5px !important;
+            }
+            h1 {
+                font-size: 22px !important;
+            }
+            h2 {
+                font-size: 18px !important;
+            }
+            h3 {
+                font-size: 16px !important;
+            }
+            /*.container {
+                padding: 0 !important;
+                width: 100% !important;
+                max-width: 538px !important;
+            }*/
+            .content {
+                padding: 0 !important;
+            }
+            .content-wrap {
+                padding: 10px !important;
+            }
+            .invoice {
+                width: 100% !important;
+            }
+        }
+        
+        @media only screen and (max-width: 555px) {
+            /* .container {
+                max-width: 375px !important;
+            }
+            .main-content-block {
+                width: 100%;
+                display: table !important;
+            }*/
+            #actual-table td {
+                display: inline-block;
+                width: 50%;
+                margin-bottom: 2px;
+				color: #000;
+            }
+            #actual-table {
+                border-collapse: separate;
+                border-spacing: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body itemscope itemtype="http://schema.org/EmailMessage" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; width: 100% !important; height: 100%; line-height: 1.6em;margin: 0;">
+
+    <table class="body-wrap" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; width: 100%; background-color: #fff; margin: 0;">
+        <tr style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+            <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0;"></td>
+            <td class="container" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; display: block !important; max-width: 100%; clear: both !important; margin: 0 auto;">
+                <table cellpadding="0" cellspacing="0" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;width: 100%">
+                    <tr style="text-align: right">
+                        <td style="padding: 15px 0;border-bottom: 3px solid #888888;"><img src="http://180.151.230.14:89/images/logo.png" alt="Nandika Residency" width="200" /></td>
+                    </tr>
+                </table>
+                <div class="content" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; max-width: 800px; display: block; margin: 0 auto;">
+                    <table class="main" width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; border-radius: 3px; background-color: #fff; margin: 0;">
+                        <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                            <td class="alert alert-warning" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; color: #000; font-weight: 700; text-align: left; border-radius: 3px 3px 0 0; background-color: transparent ; margin: 0; padding: 5px; padding-bottom: 15px;" align="center" bgcolor="#1464bf">
+                                Dear <%= reservation.packageInfo[0].roomInfo[0].primaryGuest.guestName%>,
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="alert alert-warning" style="color: #03237e;border-radius: 0;background-color: rgba(124, 199, 236, 0.4) !important; padding: 5px;" valign="top">
+                                <h2><i class="fa fa-check-circle" style="margin-right: 10px;"></i>Your booking is confirmed!</h2>
+                            </td>
+                        </tr>
+                        <tr style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;box-sizing:border-box;font-size:14px;margin:0;color: #000;">
+                            <td class="alert alert-warning" style="padding-top: 15px;">
+                                Booking ID : <b><%= reservation._id%></b>
+                            </td>
+                        </tr>
+                        <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                            <td class="alert alert-warning" style="padding-top: 5px; color: #9a9a9a">
+                                Thank you for booking with Nandika Residency. Use the Booking ID in all communication with Nandika Residency.
+                            </td>
+                        </tr>
+                        <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                            <td class="content-wrap" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 20px 0px;padding-bottom: 10px">
+                                <div id="page-wrap">
+                                    <table id="actual-table">
+                                        <tr>
+                                            <td style="background-color: #f3f3f3;">
+                                                <p style="margin: 0;color: #1c45a1;">Summary</p>
+                                                <div class="row no-border" style="width: 100%;display: inline-flex;">
+                                                    <div class="col-sm-6 no-border" style="width: 50%; float:left">
+                                                        <h3 class="date-view">
+															<p style="font-size: 13px;margin-bottom: 5px;">Check - In</p>
+															<p class="day"><%= reservation.formattedInDate[0] %></p>
+															<p class="date"><%= reservation.formattedInDate[2] %></p>
+															<p class="month"><%= reservation.formattedInDate[1] %></p>
+														</h3>
+                                                    </div>
+                                                    <div class="col-sm-6 no-border" style="width: 50%; float:right">
+                                                        <h3 class="date-view">
+															<p style="font-size: 13px;margin-bottom: 5px;">Check - Out</p>
+															<p class="day"><%= reservation.formattedOutDate[0] %></p>
+															<p class="date"><%= reservation.formattedOutDate[2] %></p>
+															<p class="month"><%= reservation.formattedOutDate[1] %></p>
+														</h3>
+                                                    </div>
+                                                </div>
+												
+												<div>
+													<% for(var i=0; i<reservation.packageInfo.length; i++) {%>
+                                                     <% for(var j=0; j<reservation.packageInfo[i].roomInfo.length; j++) {%>
+													    <p><b>Package: </b> <%= reservation.packageInfo[i].package.name %></p>
+														<p><b>Meal Type: </b> <%= reservation.packageInfo[i].package.meal.name %></p>
+														<div>
+															
+															   <p><b>Occupancy: </b> 
+															   <span><%= reservation.packageInfo[i].roomInfo[j].primaryGuest.noOfAdults %> Adult(s)</span>
+															   <span>, <%= reservation.packageInfo[i].roomInfo[j].primaryGuest.kids.length %> Kid(s)</span>
+															   <% if(reservation.packageInfo[i].roomInfo[j].primaryGuest.kids.length != 0){ %>
+																			<span>, Age(s): </span>
+																		<% } %>
+															  <% for(var k=0; k<reservation.packageInfo[i].roomInfo[j].primaryGuest.kids.length; k++) {%>
+																		<span> <%= reservation.packageInfo[i].roomInfo[j].primaryGuest.kids[k].age %></span>
+																		<% if(k != reservation.packageInfo[i].roomInfo[j].primaryGuest.kids.length - 1){ %>
+																			<span>, </span>
+																		<% } %>
+																<% } %>
+															   </p>
+															
+														</div>
+														<div style="color: #000">
+															<b>Amenities: </b>
+															<% for(var k=0; k<reservation.packageInfo[i].package.roomType.amenities.length; k++) {%>
+															   <%= reservation.packageInfo[i].package.roomType.amenities[k].name  %>
+															   <% if(k != reservation.packageInfo[i].package.roomType.amenities.length - 1){ %>
+																			<span>, </span>
+																		<% } %>
+															<% } %>
+														</div>
+														
+														<p style="font-size: 12px; margin-bottom: 0"><b> <%= reservation.packageInfo[i].package.cancellationPolicy.name %> </b></p>
+														<ul class="policy-list">
+														<% for(var m=0; m<reservation.packageInfo[i].package.cancellationPolicy.description.length; m++) {%>
+															   <li>
+																<%= reservation.packageInfo[i].package.cancellationPolicy.description[m].text  %>
+																</li>
+															<% } %>
+															
+														</ul>
+                                                        <% } %>
+													<% } %>
+												</div>
+                                            </td>
+                                            <td style="background-color: #f3f3f3;">
+                                                <p style="margin: 0;color: #1c45a1;">Tariff Details</p>
+                                                <div class="row no-border booking-list">
+                                                    <ul style="list-style: none;padding: 0px;">
+														<% for(var i=0; i<reservation.packageInfo.length; i++) {%>
+														   <li class="row">
+                                                            <div class="col-md-7">
+                                                                <b><%= reservation.packageInfo[i].package.name %> :</b>
+                                                            </div>
+                                                            <div class="col-md-5">
+                                                                INR <%= reservation.packageInfo[i].package.discountedPrice %>
+                                                            </div>
+                                                        </li>
+                                                        <li class="row">
+                                                            <div class="col-md-7">
+                                                                <b>Extra Person Fees :</b>
+                                                            </div>
+                                                            <div class="col-md-5">
+                                                                INR <%= reservation.packageInfo[i].extraPersonFee %>
+                                                            </div>
+                                                        </li>
+                                                        <li class="row" ng-if="booking.gst">
+                                                            <div class="col-md-7">
+                                                                <b>Taxes :</b>
+                                                            </div>
+                                                            <div class="col-md-5">
+                                                                INR <%= reservation.packageInfo[i].tax %>
+                                                            </div>
+                                                        </li>
+														<% } %>
+                                                    </ul>
+                                                    <ul style="list-style: none; padding: 0">
+														   <li class="row">
+                                                            <div class="col-md-7">
+                                                                <b>Grand Total : </b>
+                                                            </div>
+                                                            <div class="col-md-5">
+                                                                <h2 style="margin:0">INR <%= reservation.totalAmount %></h2>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div id="imp-terms">
+                                                        <ul>
+                                                            <p><b>Important Terms:</b></p>
+                                                            <li>ID proof must be carried by the primary guest.</li>
+                                                            <li>In case of couples, marriage proof/ID is a must.</li>
+                                                            <li>Failure to comply with any of the terms may result in cancellation of your booking and forfeiture of your payment.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+								</div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
